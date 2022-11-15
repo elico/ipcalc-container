@@ -1,0 +1,238 @@
+:lang(de) a[id|=IPv4menutxt]:after {
+	content: 'IPv4';
+}
+
+:lang(de) a[id|=IPv6menutxt]:after {
+	content: 'IPv6';
+}
+:lang(de) a[id|=IPv6cmenutxt]:after {
+	content: 'IPV6 dicht';
+}
+:lang(de) a[id|=IPv6amenutxt]:after {
+	content: 'IPV6 alternativ';
+}
+:lang(de) #maintitle:after {
+   content:'IPv4 & IPv6 subnet Rechner';
+}
+:lang(de) #theoptions:after {
+   content:'';
+}
+:lang(de) #panelcalculationtxt:after {
+   content:'Rechner';
+}
+:lang(de) #theme_default:after {
+   content:'default Thema';
+}
+:lang(de) #theme_modern:after {
+   content:'modern Thema';
+}
+:lang(de) #theme_classic:after {
+   content:'Klassik Thema';
+}
+:lang(de) #theme_dark:after {
+   content:'dunkel Thema';
+}
+:lang(de) #theme_grey:after {
+   content:'grau Thema';
+}
+:lang(de) #theme_paw:after {
+   content:'paw Thema';
+}
+
+:lang(de) #reinit:after {
+content:'Wiedererstellung ';
+}
+:lang(de) label[id|=iplabel]:before{
+content: 'IP';
+}
+:lang(de) label[id|=netmasklabel]:before{
+content: 'netmask';
+}
+:lang(de) label[id|=subnetlabel]:before{
+content: 'Netzwerk';
+}
+:lang(de) label[id|=bitslabel]:before{
+content: 'bits';
+}
+:lang(de) label[id|=hostnbrlabel]:before{
+content: 'Anzahl Apparate';
+}
+:lang(de) label[id|=ipnbrlabel]:before{
+content: 'Anzahl IP';
+}
+:lang(de) label[id|=broadcastlabel]:before{
+content: 'multicast all hosts';
+}
+:lang(de) label[id|=hostfromlabel]:before{
+content: 'erster Host';
+}
+:lang(de) label[id|=hosttolabel]:before{
+content: 'lezter Host';
+}
+:lang(de) label[id|=historylabel]:before{
+content: 'vorherige IPs';
+}
+:lang(de) span[id|=paneltext]:after{
+content: 'Text umwandlung';
+}
+
+:lang(de) span[id|=panelinfo]:after{
+content: 'Informationen';
+}
+
+:lang(de) span[id|=panelexample]:after{
+content: 'Beispiel';
+}
+:lang(de) label[id|=reversenetmasklabel]:before{
+content: 'umgekehrte';
+}
+
+:lang(de) #textipbtn:after {
+content:'text importieren';
+}
+:lang(de) #infoIPv4v6btn.hidetxt:after {
+content:"mehr Auskunft über IPv6";
+}
+:lang(de) #infoIPv4v6btn.showtxt:after {
+content:'verstecke die Informationen über IPv6';
+}
+:lang(de) label[id|=ipv4example_1]:after{
+content: 'Klasse A';
+}
+:lang(de) label[id|=ipv4example_2]:after{
+content: 'Klasse B';
+}
+:lang(de) label[id|=ipv4example_3]:after{
+content: 'Klasse C';
+}
+:lang(de) label[id|=ipv4example_4]:after{
+content: 'Multicast';
+}
+:lang(de) label[id|=ipv6example_1]:after{
+content: 'reserviert';
+}
+:lang(de) label[id|=ipv6example_2]:after{
+content: 'loopback';
+}
+:lang(de) label[id|=ipv6example_3]:after{
+content: 'Internet erste Adressen';
+}
+:lang(de) label[id|=ipv6example_4]:after{
+content: 'neuer Internet Standard';
+}
+:lang(de) label[id|=ipv6example_5]:after{
+content: 'internet routing IPv6 to IPV4';
+}
+:lang(de) label[id|=ipv6example_6]:after{
+content: 'multicast mDNSv6';
+}
+:lang(de) label[id|=ipv6example_7]:after{
+content: 'multicast';
+}
+:lang(de) label[id|=ipv6example_8]:after{
+content: 'lokale-Link unicast';
+}
+:lang(de) label[id|=ipv6example_9]:after{
+content: 'lokale-Site unicast';
+}
+:lang(de) label[id|=ipv6example_10]:after{
+content: 'IPv4 lokale to IPv6';
+}
+:lang(de) label[id|=ipv6example_11]:after{
+content: '6bone (für die Forschung in der Backbone';
+}
+:lang(de) label[id|=ipv6example_12]:after{
+content: 'multicast Subnet';
+}
+:lang(de) label[id|=ipv6example_13]:after{
+content: 'multicast Routers';
+}
+:lang(de) label[id|=ipv6example_14]:after{
+content: 'unbestimmte IP';
+}
+:lang(de) label[id|=ipv6example_15]:after{
+content: 'IPv6 dicht';
+}
+:lang(de) label[id|=ipv6example_16]:after{
+content: 'IPv6 alternativ';
+}
+:lang(de) label[id|=ipv6example_17]:after{
+content: 'IPv6 dicht für Unternehmen';
+}
+:lang(de) label[id|=ipv6example_18]:after{
+content: 'IPv6 breit';
+}
+:lang(de) span[class~=infoIP4_00]:before{
+content: 'IP version 4  aaa.bbb.ccc.ddd where aaa, bbb, ccc, ddd are numbers between 0 and 255.';
+}
+:lang(de) span[class~=infoIP4_01]:before{
+content: 'private class A';
+}
+:lang(de) span[class~=infoIP4_02]:before{
+content: 'private class B';
+}
+:lang(de) span[class~=infoIP4_03]:before{
+content: 'private class C';
+}
+:lang(de) span[class~=infoIP4_04]:before{
+content: 'class A from 1.x.x.x 127.x.x.x';
+}
+:lang(de) span[class~=infoIP4_05]:before{
+content: 'class B from 128.x.x.x 191.x.x.x';
+}
+:lang(de) span[class~=infoIP4_06]:before{
+content: 'class C from 192.x.x.x 223.x.x.x';
+}
+:lang(de) span[class~=infoIP4_07]:before{
+content: 'multicast 224.x.x.x 239.x.x.x';
+}
+:lang(de) span[class~=infoIP4_08]:before{
+content: 'other     240.x.x.x 255.x.x.x';
+}
+:lang(de) span[class~=infoIP4_09]:before{
+content: 'localhost 127.x.x.x';
+}
+
+:lang(de) span[class~=infoIP6_00]:before{
+content: 'reserviert & Loopback=::1 & any=::';
+}
+:lang(de) span[class~=infoIP6_01]:before{
+content: 'Unassigned.';
+}
+:lang(de) span[class~=infoIP6_02]:before{
+content: 'Reserved for NSAP Allocation, Prefix(binary)=0000 001 .';
+}
+:lang(de) span[class~=infoIP6_03]:before{
+content: 'Reserved for IPX Allocation, Prefix(binary)=0000 010 .';
+}
+:lang(de) span[class~=infoIP6_04]:before{
+content: "'2000::/3' allozierte IPv6 Adressen in Internet.'2000::/16' bevor der Begin 2001. '2001::/16' nach 2001. '2002::/16' f\FC  die Routing IPv6 zu IPv4.";
+}
+:lang(de) span[class~=infoIP6_05]:before{
+content: 'Multicast. FF00::/8 (von FF00:: bis FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF).';
+}
+:lang(de) span[class~=infoIP6_06]:before{
+content: 'Unique Local Unicast Subnet. Unique Local Adressen (ULA) sind interne IPs. FC00::/7. Zum Beispiel f\FC  Tunnel Verbindungen oder zwischen Kunden.';
+}
+:lang(de) span[class~=infoIP6_07]:before{
+content: 'Link-Local-Adressen. FE80::/10. Zwischen Netzwerkapparaten.';
+}
+:lang(de) span[class~=infoIP6_08]:before{
+content: '6bone "3ffe::/16" f\FC  die Forschung in der Backbone.';
+}
+:lang(de) span[class~=infoIP6_09]:before{
+content: 'IP reserviert f\FC  zuk\FCnftige Gebrauch.';
+}
+:lang(de) span[class~=infoIP6_10]:before{
+content: 'FF01::1, FF02::1 IPv6 broadcast. Alle Apparaten sollten beantworten. FF01::/8 sind Node-Local Scope Multicast Adressen. FF02::/8 sind Link-Local Scope Multicast Adressen.';
+}
+:lang(de) span[class~=infoIP6_11]:before{
+content: 'FF01::2, FF02::2, FF05::1  Alle Router sollten beantworten. FF01::/8 sind Node-Local Scope Multicast Adressen. FF02::/8 sind Link-Local Scope Multicast Adressen.';
+}
+:lang(de) span[class~=infoIP6_12]:before{
+content: '::/128 ist die unbestimmte IPv6. Benutzt wenn die IPv6 ist nicht vorhande oder fehlerhaft.';
+}
+:lang(de) span[class|=fillinfotxtresultsubnet]:before{
+content: 'Subnetz';
+}
+

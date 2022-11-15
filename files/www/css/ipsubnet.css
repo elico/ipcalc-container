@@ -1,0 +1,514 @@
+/* *********************** */
+/* CSS general             */
+/* *********************** */
+
+.imglanguage{
+  position:relative;display:inline-block;
+}
+
+.btnlanguage {
+position:relative;
+padding: 2px 2px;
+margin: 0;
+text-align:center;
+vertical-align:middle;
+border-radius: 5px;
+}
+
+.container {
+  margin-right:1px;margin-left:1px;
+  padding-right:1px;padding-left:1px;
+  text-align: left;
+}
+
+.WORLD {
+ /* marking of the language always empty */
+}
+.EN {
+ /* marking of the language always empty */
+}
+.FR {
+ /* marking of the language always empty */
+}
+.IT {
+ /* marking of the language always empty */
+}
+.US {
+ /* marking of the language always empty */
+}
+.RU {
+ /* marking of the language always empty */
+}
+.ZH-HANS {
+ /* marking of the language always empty */
+}
+
+.open{
+display:inline-block;
+}
+div.historymenu {
+position:relative;
+top: 100%;
+left: 0;
+float:left;
+}
+
+ul.historymenu {
+}
+li.historymenu {
+min-width:30em;
+}
+span.historymenu {
+}
+.historymenu>li>a {
+display: inline-block;
+width:90%;
+}
+.historymenuseparation {
+color:white;
+background-color:gray;
+height:5px;
+padding:0;
+margin:0;
+width:100%;
+}
+.form-control-after{
+position:absolute;
+top:3px;right:-1px;
+display:block;
+text-align:center;
+float:left;
+}
+
+input.has-warning {
+  color:white;
+  font-weight:bold;
+  background-color: red;
+}
+.fa-toggle-on{
+	cursor:pointer;
+}
+.fa-toggle-off{
+	cursor:pointer;
+}
+select.input-sm.badged{
+border: 2px solid gray;
+display:inline-block;
+font-weight:700;
+text-align:center;
+white-space:nowrap;
+vertical-align:middle;
+text-decoration:none;
+cursor:pointer;
+}
+.ipsubnet>.panel-heading label{
+vertical-align:middle;
+}
+div.theoptions {
+padding:5px 5px 0px 5px;
+float:right;
+}
+.btntheoptions {
+background-color:inherit;
+color:inherit;
+}
+ul.theoptions {
+left:auto;
+right:0;
+}
+.panel-main>.panel-heading.maintitle{
+text-align: center;
+font-weight:bold;
+font-size:110%;
+}
+.bits {
+/*  width:5em;*/
+}
+.reversenetmask {
+/* */
+}
+.row.examples {
+	margin: 1px 5px;
+}
+div.textipdiv {
+	width:30%;
+    vertical-align:middle;
+	border-style: 1px solid Silver;
+	margin: 5px;
+    display:inline-block;
+}
+
+textarea.textip {
+	content:' ';
+	min-height: 6em;
+}
+div.textipbtndiv {
+    vertical-align:top;
+	margin: 5px;
+    display:inline-block;
+}
+.textipbtn {
+    vertical-align:middle;
+}
+div.textvaliddiv {
+    vertical-align:top;
+    display:inline-block;
+	margin: 5px;
+	padding-top: 5px;
+	height: 6em;
+	overflow-y: scroll;
+	width:50px;
+}
+div.textipimportdiv {
+	width:30%;
+	margin: 5px;
+    vertical-align:top;
+    display:inline-block;
+}
+textarea.textipimport {
+	width:100%;
+	content:' ';
+	height: 6em;
+}
+textarea.textipimport[class~=warning] {
+  border-left: 5px Red solid;
+}
+div.textimportexamplediv {
+    display:inline-block;
+	vertical-align:top;
+	padding: 5px;
+}
+span.textimportexample {
+	font-size:80%;
+}
+.statusicons {
+  visibility:visible;
+}
+i.statusicons[class~=ok]{
+  visibility:visible;
+}
+i.statusicons[class~=warning]{
+  visibility:visible;
+}
+i.statusicons[class~=warningbg]{
+  visibility:visible;
+}
+.infotxt {
+	width:50%;
+}
+
+.panel-calculation>.panel-heading{
+text-align: left;
+font-weight:bold;
+}
+.panel-text>.panel-heading{
+text-align: left;
+font-weight:bold;
+}
+.panel-info>.panel-heading{
+text-align: left;
+font-weight:bold;
+}
+.panel-example>.panel-heading{
+text-align: left;
+font-weight:bold;
+}
+div.infotxt {
+	min-height: 3em;
+	width:100%;
+	border-style: solid;
+	border-width: 1px 0 1px 0;
+	margin: 5px 5px;
+}
+.textvalid {
+	width:20px;
+}
+.infoIPv4v6txt {
+font-weight:normal;
+}
+.infoIPv4v6txt.hidetxt {
+visibility:hidden;
+}
+.infoIPv4v6txt.showtxt {
+visibility:visible;
+}
+.infoIPv4v6btn {
+}
+.iframeinfo{
+ border: none;
+ width:100%;
+ font-size:90%;
+ font-weight:500;
+ position:relative;
+ display:none;
+}
+.hostfrominput{
+}
+.statusicons {
+  color:silver;
+}
+i.statusicons[class~=ok]{
+  color:green;
+}
+i.statusicons[class~=warning]{
+  color:red;
+}
+i.statusicons[class~=warningbg]{
+  color:white;
+  background-color:red;
+}
+
+/* ************************** */
+/* CSS design related to size */
+/* ************************** */
+.ipsubnet>.panel-heading {
+max-height:4em;
+}
+.navbar {
+min-height: 2em;
+max-height:5em;
+}
+.navbar-brand{
+height:auto;
+max-height:5em;
+padding-top:1px;
+padding-bottom:1px;
+}
+.navbar-nav>li>a {
+line-height: normal;
+padding-top: 10px;
+padding-bottom: 5px;
+}
+label.checkboxnav {
+margin: 0;
+padding: 8px 5px 0px 5px;
+}
+div.checkboxnav {
+text-align:center;
+float:left;
+margin-left:5px;
+}
+.btn {
+padding: 2px 3px;
+}
+.fa-1x5{
+font-size:1.5em;
+}
+
+.fa-xvariable{
+font-size:1.5em;
+}
+
+.container{
+  font-size:12px;
+}
+div {
+  font-size:12px;
+}
+input {
+  font-size:12px;
+}
+span {
+  font-size:12px;
+}
+.form-control {
+  font-size:12px;
+}
+
+.imglanguage{
+/*
+  width:30px;
+  height:20px;
+*/
+  height: auto;
+  max-width:100%;
+}
+img[id|=imglanguage] {
+/*
+width:31px;
+height:33px;
+*/
+  height: auto;
+  max-width:100%;
+}
+
+@media (min-width:600px){
+ .container{
+  font-size:11px;
+  width:auto;
+ }
+ div{
+  font-size:11px;
+ }
+}
+@media (max-width:1090px){
+.fa-xvariable{
+ font-size:1em;
+ }
+}
+
+@media (min-width:700px){
+ .container{
+  font-size:11px;
+  width:auto
+ }
+ div{
+  font-size:11px;
+ }
+ input {
+  font-size:11px;
+ }
+ .form-control {
+  font-size:11px;
+ }
+}
+@media (min-width:800px){
+ .container{
+  font-size:11px;
+  width:auto
+ }
+ div{
+  font-size:11px;
+ }
+ input {
+   font-size:11px;
+ }
+ .form-control {
+   font-size:11px;
+ }
+}
+@media (min-width:900px){
+ .container{
+  font-size:11px;
+  width:auto
+ }
+ div{
+  font-size:11px;
+ }
+ input {
+   font-size:11px;
+ }
+ .form-control {
+   font-size:11px;
+ }
+}
+@media (min-width:1000px){
+ .container{
+  font-size:12px;
+ }
+ div{
+  font-size:12px;
+ }
+ input {
+   font-size:12px;
+ }
+ .form-control {
+   font-size:12px;
+ }
+}
+@media (min-width:1200px){
+ .container{
+  font-size:12px;
+ }
+ div{
+  font-size:12px;
+ }
+ input {
+   font-size:12px;
+ }
+ .form-control {
+   font-size:12px;
+ }
+}
+
+@media (max-width:2000px){
+}
+ .form-control{
+ height:auto;
+ padding:2px 4px;
+ }
+ .panel-group{
+ margin-bottom:2px
+ }
+ .panel-group .panel{
+ margin-bottom:0;
+ }
+ .panel-group .panel+.panel{
+ margin-top:2px;
+ margin-bottom:2px;
+ }
+ .panel-group .panel-footer{
+ margin-top:0px;
+ margin-bottom:0px;
+ padding-top:2px;
+ padding-bottom:2px;
+ }
+ .panel-main>.panel-body,.panel-format>.panel-body,.panel-calculation>.panel-body {
+ padding-top:2px;
+ padding-bottom:2px;
+ padding-left:5px;
+ padding-right:5px;
+ }
+ .navbar.y-xsm{
+ margin-bottom:2px;
+ }
+ .pager {
+ margin: 5px 5px;
+ }
+ .row {
+ vertical-align:middle;
+ }
+ .col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9 .labbeling {
+ margin-bottom:1px;
+ padding:1px 10px;
+ }
+ .col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{
+  padding-right:5px;padding-left:5px;
+ }
+ select.input-sm.badged{
+ height:auto;
+ padding:0px 7px;
+ min-width:10px;
+ width:100%;
+ font-size:90%;
+ border-radius:10px;
+ }
+ select.input-sm.badged.ipv6{
+ }
+
+.flagmenu {
+ font-size:90%;
+}
+.flagmenuico {
+}
+.flagmenuicofield1{
+min-width:5em;
+display:inline-block;
+}
+.flag-1x5 {
+font-size:150%;
+}
+.flag-2x {
+font-size:200%;
+}
+.flag-icon[id|=flag]:hover{
+position:relative;
+/*font-size:350%;*/
+-webkit-transform:scale(2);
+transform:scale(2);
+transition-timing-function: ease-in-out;
+z-index:100;
+}
+.flag-icon[id|=flag]{
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+div.version {
+display:inline-block;
+float:right;
+}
+.version span {
+margin:0;
+padding:0;
+font-size:80%;
+}
